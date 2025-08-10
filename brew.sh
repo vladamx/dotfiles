@@ -38,6 +38,7 @@ brew install --cask chatgpt
 brew install --cask iterm2
 brew install --cask spotify
 brew install --cask google-chrome
+brew install --cask alfred
 
 # Store apps
 brew install mas
