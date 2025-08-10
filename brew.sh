@@ -51,6 +51,17 @@ if ! fgrep -q "${BREW_PREFIX}/bin/zsh" /etc/shells; then
   chsh -s "${BREW_PREFIX}/bin/zsh";
 fi;
 
+# Install oh-my-zsh
+# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Plugins
+# Syntax highlighting
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+# Autosuggestions
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+# .zshrc
+# plugins=(git z colored-man-pages zsh-syntax-highlighting zsh-autosuggestions)
+
 # Install `wget` with IRI support.
 brew install wget --with-iri
 
