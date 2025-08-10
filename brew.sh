@@ -41,6 +41,9 @@ brew install --cask google-chrome
 brew install --cask zoom
 brew install --cask raycast
 
+# Node.js
+brew install fnm
+
 # Store apps
 brew install mas
 # Xcode
