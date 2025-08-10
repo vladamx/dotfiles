@@ -39,11 +39,13 @@ brew install --cask iterm2
 brew install --cask spotify
 brew install --cask google-chrome
 brew install --cask alfred
+brew install --cask zoom
 
 # Store apps
 brew install mas
 # Xcode
 mas install 497799835
+# sudo xcodebuild -license accept
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q "${BREW_PREFIX}/bin/zsh" /etc/shells; then
