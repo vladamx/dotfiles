@@ -34,6 +34,7 @@ brew install --cask zed
 brew install --cask notion
 brew install --cask chatgpt
 brew install --cask iterm2
+brew install --cask spotify
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q "${BREW_PREFIX}/bin/zsh" /etc/shells; then
