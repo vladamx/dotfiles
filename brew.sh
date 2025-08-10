@@ -29,13 +29,18 @@ brew install gnu-sed --with-default-names
 brew install zsh
 brew install zsh-completions
 
-# Apps
+# Apps - Could be installed in .brewfile as bundle
 brew install --cask zed
 brew install --cask notion
 brew install --cask chatgpt
 brew install --cask iterm2
 brew install --cask spotify
 brew install --cask google-chrome
+
+# Store apps
+brew install mas
+# Xcode
+mas install 497799835
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q "${BREW_PREFIX}/bin/zsh" /etc/shells; then
