@@ -26,8 +26,10 @@ brew install gnu-sed --with-default-names
 brew install zsh
 brew install zsh-completions
 
+# Apps
 brew install --cask zed
 brew install --cask notion
+brew install --cask chatgpt
 
 # Switch to using brew-installed bash as default shell
 if ! fgrep -q "${BREW_PREFIX}/bin/zsh" /etc/shells; then
