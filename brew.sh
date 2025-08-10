@@ -11,6 +11,8 @@ brew update
 # Upgrade any already-installed formulae.
 brew upgrade
 
+# brew doctor for installation check
+
 # Save Homebrew’s installed location.
 BREW_PREFIX=$(brew --prefix)
 
