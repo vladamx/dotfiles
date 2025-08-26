@@ -117,6 +117,7 @@ brew install screen
 # brew install ack
 # brew install exiv2
 brew install git
+brew install awscli
 # brew install git-lfs
 # brew install gs
 # brew install imagemagick --with-webp
