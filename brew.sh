@@ -40,6 +40,8 @@ brew install --cask spotify
 brew install --cask google-chrome
 brew install --cask zoom
 brew install --cask raycast
+brew install --cask discord
+brew install --cask anki
 
 # Node.js
 brew install fnm
