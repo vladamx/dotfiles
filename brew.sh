@@ -42,6 +42,7 @@ brew install --cask zoom
 brew install --cask raycast
 brew install --cask discord
 brew install --cask anki
+brew install --cask visual-studio-code
 
 # Node.js
 brew install fnm
