@@ -30,6 +30,7 @@ brew install gnu-sed --with-default-names
 # Install a modern version of Bash.
 brew install zsh
 brew install zsh-completions
+brew install docker
 
 # Apps - Could be installed in .brewfile as bundle
 brew install --cask zed
@@ -43,6 +44,8 @@ brew install --cask raycast
 brew install --cask discord
 brew install --cask anki
 brew install --cask visual-studio-code
+brew install --cask rancher
+
 
 # Node.js
 brew install fnm
