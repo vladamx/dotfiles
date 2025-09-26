@@ -44,7 +44,7 @@ brew install --cask raycast
 brew install --cask discord
 brew install --cask anki
 brew install --cask visual-studio-code
-brew install --cask rancher
+brew install --cask colima
 
 
 # Node.js
