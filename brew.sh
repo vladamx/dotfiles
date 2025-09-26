@@ -46,7 +46,6 @@ brew install --cask anki
 brew install --cask visual-studio-code
 brew install --cask colima
 
-
 # Node.js
 brew install fnm
 
@@ -124,6 +123,10 @@ brew install screen
 # brew install exiv2
 brew install git
 brew install awscli
+brew install kind
+brew install kubectl
+brew install kustomize
+brew install skaffold
 # brew install git-lfs
 # brew install gs
 # brew install imagemagick --with-webp
