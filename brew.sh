@@ -127,6 +127,7 @@ brew install kind
 brew install kubectl
 brew install kustomize
 brew install skaffold
+brew install deno
 # brew install git-lfs
 # brew install gs
 # brew install imagemagick --with-webp
