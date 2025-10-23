@@ -26,7 +26,7 @@ brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
+brew install gnu-sed
 # Install a modern version of Bash.
 brew install zsh
 brew install zsh-completions
@@ -44,7 +44,7 @@ brew install --cask raycast
 brew install --cask discord
 brew install --cask anki
 brew install --cask visual-studio-code
-brew install --cask colima
+brew install colima
 
 # Node.js
 brew install fnm
@@ -62,7 +62,7 @@ if ! fgrep -q "${BREW_PREFIX}/bin/zsh" /etc/shells; then
 fi;
 
 # Install oh-my-zsh
-# sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Plugins
 # Syntax highlighting
@@ -73,7 +73,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 # plugins=(git z colored-man-pages zsh-syntax-highlighting zsh-autosuggestions)
 
 # Install `wget` with IRI support.
-brew install wget --with-iri
+brew install wget
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
