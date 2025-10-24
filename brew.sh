@@ -45,6 +45,9 @@ brew install --cask discord
 brew install --cask anki
 brew install --cask visual-studio-code
 brew install --cask postman
+brew install --cask pgadmin4
+
+## Docker engine
 brew install colima
 
 # Node.js
